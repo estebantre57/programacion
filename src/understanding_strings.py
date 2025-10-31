@@ -49,3 +49,44 @@ print(full_name)
 
 print("Hola, "+ full_name.title() +"!")
 
+
+
+
+# Syntax error con strings
+message = "una fortaleza de python es su comunidad"
+print(message)
+
+message = "una fortaleza de 'python' es su comunidad"
+print(message)
+
+# concarenacion con f-strings
+famous_person= "Esteban Trejo"
+quote = "python is love"
+
+# concatenacion convencional
+message = famous_person +" una vez dijo "+ quote 
+print(message)
+
+# concatenacion con fstrings
+"""
+() - se llaman paréntesis
+{} - llaves
+[] - corchetes
+"""
+message_f_string = f"{famous_person} una vez dijo {quote}"
+print(message_f_string)
+
+#actividad 
+"""
+ 1)elige un personaje famoso e igualado a una variable de tipo string
+ 2)elige una frase famosa de esa persona e igualala a una variable de tipo string
+ 3)Genera un mensaje con las dos variables utilizando f-strings
+ 4)Imprime el mensaje
+
+"""
+
+famous_person= "aristoteles"
+quote = "La sabiduría comienza en la reflexión."
+message_f_string = f"{famous_person} una vez dijo: '{quote}'"
+print(message_f_string)
+
