@@ -90,3 +90,38 @@ quote = "La sabiduría comienza en la reflexión."
 message_f_string = f"{famous_person} una vez dijo: '{quote}'"
 print(message_f_string)
 
+
+# Whitespaces
+"""
+Whitespaces se refiere a cualquier caracter que no se imprime,
+es decir, un tabulador y finales de linea. los whitespaces
+se utilizan comunmente para organizar las salidas (print)
+de tal manera que sea mas amigable de leer o ver para los usuarios.
+"""
+
+# ejemplos
+print("Python")
+print("\tPython")  # tabulador
+print("\t\tPython")  # tabulador 
+
+# Ejemplos de salto de linea
+print("languajes de programacion:\nPython\nJavaScript")
+print("carlos")
+print("tovar")
+
+
+
+
+print(message)
+
+
+
+
+
+
+# Eliminacion de espacios en blanco
+programming_language = " python javascript "
+print(programming_language)
+print(programming_language.lstrip())
+print(programming_language.rstrip())
+print(programming_language.strip())
