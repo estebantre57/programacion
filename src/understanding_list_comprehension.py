@@ -17,7 +17,8 @@ print(even_number_0_100)
 
 # Numeros pares utilizando list comprehension
 evens_number_0_100 = [value for value in range(0,101)if value%2 > 0]
-print (f"evens list comprehension:", evens_list_compre)
+print (f"evens list comprehension:", evens_number_0_100)
+
 
 
 
