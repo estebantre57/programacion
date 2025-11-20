@@ -23,14 +23,6 @@ else:
         
 print("Hola Esteban")
 
-"""
-    Hacer un programa que pregunte la edad de una persona
-    y responda lo sig:
-        -si la edad es menor o igual a 4, entonces la entrada 
-        es gratuita
-        -si la edad es menor e igual a 18, pero mayor que 4 entonces la entrada cuesta 200
-        -si la edad es mayor que 18, entonces la entrada cuesta 400
-"""
 
 # Multiple if
 guisos = ["deshebrada", 'asado', "salsa verde", "pozole"]
