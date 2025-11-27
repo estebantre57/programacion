@@ -28,6 +28,9 @@ while True: # while loop infinito
         print("Entrada invalida, por favor ingrese un numero entero")
     except KeyboardInterrupt:
         print("\nPrograma terminado por el usuario.")
+        
+print("saliste del while yupi")
+
               
         
         
